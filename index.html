@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de CEP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/MCYU2vzJYidGdVHnN9ESPVqIWn1cbla82p5XB_dPiesyWtj59eNiMNScSg1Fnainuaw" type="image/x-icon">
+</head>
+<body>
+    <h1 id="titulo"> Buscador de CEP </h1>
+
+    <div class="container"> 
+
+        <div class="inputs_container">
+
+            <div class="input_div">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/64/64673.png" alt="Icone Lupa">
+
+                <input type="text" id="cep" placeholder="Digite seu CEP...">
+
+            </div>
+
+            <button id="procurarCep" > Procurar </button>
+
+        </div>
+
+        <div class="results_container">
+
+            <div class="left_side">
+
+                <div class="info_div">
+                    <label>CEP:</label>
+                    <h1 id="ceep"></h1>
+                </div>
+
+                <div class="info_div">
+                    <label>Rua:</label>
+                    <h1 id="rua"></h1>
+                </div>
+
+                
+                <div class="info_div">
+                    <label>Bairro:</label>
+                    <h1 id="bairro"></h1>
+                </div>
+
+            </div>
+
+            <div class="right_side">
+
+                <div class="info_div">
+                    <label>Localidade:</label>
+                    <h1 id="localidade"></h1>
+                </div>
+
+                <div class="info_div">
+                    <label>Estado:</label>
+                    <h1 id="estado"></h1>
+                </div>
+
+                
+                <div class="info_div">
+                    <label>DDD:</label>
+                    <h1 id="ddd"></h1>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
